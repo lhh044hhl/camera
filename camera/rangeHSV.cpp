@@ -79,7 +79,7 @@ int main() {
 	Mat gryMat;
 	int lowTH = 30 ;
 	int maxTH = 255;
-	srcMat = imread("D\\dignal picture\\2.jpg");
+	srcMat = imread("E:\\dignal picture\\2.jpg");
 	if (!srcMat.data)
 	{
 		cout << "Í¼ÏñÔØÈëÊ§°Ü£¡" << endl;
@@ -96,6 +96,6 @@ int main() {
 		threshod_Mat,
 		&gryMat
 	);
-	waitKey(30);
+	waitKey(0);
 	return 0;
 }
